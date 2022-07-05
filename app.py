@@ -1,11 +1,10 @@
 #server dependencies
-from flask import Flask
+from flask import Flask, request
 from flask_cors import cross_origin
 import base64
 
 # model dependencies
-from model import execute
-from flask import request
+from .model import execute
 
 #Server settings
 app = Flask(__name__)

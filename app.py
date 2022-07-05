@@ -4,7 +4,7 @@ from flask_cors import cross_origin
 import base64
 
 # model dependencies
-from Model import execute
+from model import execute
 
 #Server settings
 app = Flask(__name__)

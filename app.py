@@ -24,3 +24,6 @@ def style_transfer():
 
     return {"output": base64.b64encode(output.getvalue()).decode()}, 200
     #return send_file(output, mimetype='image/PNG'), 200   #response, status code
+
+if __name__ == '__main__':
+    app.run()
